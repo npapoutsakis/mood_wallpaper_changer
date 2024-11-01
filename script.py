@@ -8,7 +8,7 @@ import subprocess
 # Constants
 FACT_API_URL = "https://en.wikipedia.org/api/rest_v1/feed/onthisday/all/"
 IMAGE_API_URL = "https://api.unsplash.com/photos/random"
-IMAGE_API_KEY = "MREyRHIJeqBfNchsljmOhyjBtu3pxu19ZdZydHyqfto"  # Replace with your Unsplash API Key
+IMAGE_API_KEY = "--------"  # Replace with your Unsplash API Key
 WALLPAPER_PATH = os.path.join(os.path.expanduser("~"), "daily_wallpaper.jpg")
 
 def get_daily_fact():
